@@ -1,5 +1,7 @@
-Windows Registry Editor Version 5.00																			made by konex#8100
+Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control]
-"SvcHostSplitThresholdInKB"=dword:16777216
+; made by konex#8100
+; SvcHostSplitThresholdInKB = 16 GB (0x1000000)
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"SvcHostSplitThresholdInKB"=dword:1000000
